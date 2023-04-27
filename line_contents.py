@@ -7,6 +7,7 @@
 
 # Open a txt file called mylife.txt
 # Ask the user to write a line
+# Write the line entered by user
 # Ask the user if they want to continue on writing lines
 # If yes:
 # If no:
