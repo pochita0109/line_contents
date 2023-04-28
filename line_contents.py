@@ -11,6 +11,7 @@ def line():
 # Ask the user to write a line
      lines = input("\033[93mEnter line:\033[1m ")
 # Write the line entered by user
+     output_file.write(lines + "\n")
 line()
 # Ask the user if they want to continue on writing lines
 # If yes:
