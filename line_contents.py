@@ -20,4 +20,7 @@ while True:
      if answer == "y":
         line()
 # If no:
+     elif answer == "n":
+        print("\033[92mThe lines that you have entered are now saved")
+        exit()
 # If outside on choices:
