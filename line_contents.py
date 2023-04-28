@@ -24,3 +24,5 @@ while True:
         print("\033[92mThe lines that you have entered are now saved")
         exit()
 # If outside on choices:
+     else:
+        print("Invalid Answer")
