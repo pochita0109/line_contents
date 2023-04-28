@@ -14,6 +14,10 @@ def line():
      output_file.write(lines + "\n")
 line()
 # Ask the user if they want to continue on writing lines
+while True:
+     answer = input("\033[94mAre there more lines? y/n:\033[0m ")
 # If yes:
+     if answer == "y":
+        line()
 # If no:
 # If outside on choices:
